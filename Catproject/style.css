@@ -1,0 +1,134 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: #c0c6dc;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #1f2937;
+}
+
+.followers-counter {
+    font-weight: 400;
+    font-size: 22px;
+    color: #4a5161;
+    padding-left: 16px;
+}
+
+aside {
+    border-radius: 40px;
+    width: 370px;
+    height: 1206px;
+    background: rgba(224, 235, 254, 0.7);
+
+}
+
+.friends {
+    margin: 40px 0;
+}
+
+button {
+    border-radius: 16px;
+    padding: 14px 16px;
+    width: 290px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.top-btn {
+    background: #7549ea;
+    color: #fff;
+}
+
+.bot-btn {
+    border: 1px solid #7549ea;
+    background: inherit;
+    color: #7549ea;
+}
+
+ol {
+    padding: 0;
+    padding-right: 20px;
+}
+
+.asidebox {
+    padding: 40px;
+}
+
+.wrapper {
+    border-radius: 40px;
+    width: 1200px;
+    background: #fff;
+    margin: 27px auto;
+    display: flex;
+    padding: 13px 20px;
+    gap: 60px;
+}
+
+.interest {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.interest-item {
+    border-radius: 6px;
+    padding: 0px 8px;
+    height: 24px;
+    background: rgba(117, 73, 234, 0.2);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #7549ea;
+    margin: 0;
+}
+
+.buttonsbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 73px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4a5161;
+}
+
+.info-box p {
+    display: flex;
+    gap: 24px;
+}
+
+.info-box p>b {
+    width: 80px;
+}
+li{
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+li::marker{
+    font-weight: bold;
+}
